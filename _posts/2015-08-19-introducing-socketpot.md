@@ -19,7 +19,7 @@ Socketpot lets you opt-in to only the events/features that you're interested in.
 - Deposit notifications
   - Get notified every time the current user's unconfirmed or confirmed balance changes from external actions, like when they withdraw/deposit into your app from Moneypot.
   - Use unconfirmed-balance updates to instantly acknowledge a user's bitcoin-address deposit and notify them when the deposit is confirmed on the blockchain and ready to be spent.
-- Bet notifications
+- Bet notifications <span class="label label-warning">Under Construction</span>
   - Subscribe to a real-time stream of bets placed against your app.
   - Useful for creating an "All Bets" tab.
   - <span class="label label-info">Note</span> For apps with heavy bet volume, this is only a stream of the most interesting bets.
@@ -470,6 +470,8 @@ The payload is an object:
 - `diff` is a signed integer representing the change delta.
 
 ### When subscribed to "BETS"
+
+<span class="label label-warning">Under Construction</span> This subscription is still under construction and not yet ready for public use.
 
 #### [Server->Client] Event: `new_bet`
 
