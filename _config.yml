@@ -1,0 +1,13 @@
+# Site settings
+title: Moneypot's Official Blog
+email: dan@moneypot.com
+description: > # slurp mulitline string until next property
+  Moneypot.com's Official Blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.moneypot.com" # the base hostname & protocol for your site
+twitter_username: "moneypot_com"
+github_username:  "moneypot"
+permalink: "/:title"
+
+# Build settings
+markdown: kramdown

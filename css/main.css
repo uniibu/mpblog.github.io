@@ -1,0 +1,57 @@
+
+
+body {
+  padding-top: 20px; /* give navbar some breathing room */
+  padding-bottom: 200px;
+}
+
+/* Make navbar match moneypot.com's */
+
+.navbar {
+  background: none;
+  border: none;
+}
+
+/* === Homepage === */
+
+.post-list .post-meta {
+  display: inline-block;
+  width: 100px;
+}
+
+.post-list .post-title {
+  display: inline-block;
+  font-size: 22px; /* make smaller than default h2 */
+}
+
+/* === show-post page === */
+
+.post header {
+  text-align: center;
+  margin-bottom: 30px; /* add gutter before post content starts */
+}
+
+.post img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post .post-title {
+  font-family: Georgia;
+}
+
+.post .post-title a {
+  color: #333;
+}
+
+/* Make code blocks scroll horizontally instead of wrap */
+
+.post pre {
+    word-wrap: normal; /* don't wrap */
+}
+.post code {
+    overflow-y: auto;
+    white-space: pre;
+}
