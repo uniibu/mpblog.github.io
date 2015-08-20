@@ -3,6 +3,7 @@
 body {
   padding-top: 20px; /* give navbar some breathing room */
   padding-bottom: 200px;
+  font-size: 16px;
 }
 
 /* Make navbar match moneypot.com's */
