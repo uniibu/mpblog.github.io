@@ -34,7 +34,7 @@ Eventually (normally several months later), MoneyPot will need to get access to 
 
 ## How generate cold addresses
 
-If you require such privacy for your deposits, you can generate cold addresses by simply checking the "Cold Address" checkbox on the new address for on the [Receive](https://www.moneypot.com/me/receive) tab (must be logged in to MoneyPot). 
+If you require such privacy for your deposits, you can generate cold addresses by simply checking the "Cold Address" checkbox on the new address form of the [Receive](https://www.moneypot.com/me/receive) tab (must be logged in to MoneyPot). 
 
 Cold addresses stand out from regular addresses with a special blue "Cold" indicator.
 
